@@ -1,0 +1,273 @@
+------------------CODIGO FONTE-----------------------
+
+\\\PAGINA HOME///
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convite para o Aniversário de 65 anos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #F5F5DC;
+        }
+        h1 {
+            color: #8B4513;
+            font-size: 2em; 
+        }
+        .service {
+            margin: 20px auto; 
+            padding: 20px;
+            background-color: #D4AF37;
+            border-radius: 50%;
+            width: 50%; 
+            height: auto; 
+            display: block;
+        }
+        .service h2 {
+            color: white;
+            font-size: 1.5em; 
+        }
+        .service p {
+            color: white;
+            font-size: 1em;
+        }
+        .service button {
+            background-color: white;
+            border: none;
+            color: #8B4513;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em; 
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Convite para o Aniversário de 65 anos de Dona Fátima</h1>
+    <h2>SEJA BEM-VINDO</h2>
+    <p>Explore o nosso aplicativo e conheça mais sobre o evento.</p>
+    <div class="service">
+        <h2>Imagens</h2>
+        <p>Confira as fotos do evento!</p>
+        <button onclick="window.open('imagens.html', '_blank')">SAIBA MAIS</button>
+    </div>
+    <div class="service">
+        <h2>Localização</h2>
+        <p>Descubra onde será a festa!</p>
+        <button onclick="window.open('localizacao.html', '_blank')">SAIBA MAIS</button>
+    </div>
+</body>
+</html>
+
+
+\\\PAGINA IMAGENS///
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fotos do Aniversário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #F5F5DC;
+        }
+        h1 {
+            color:#8B4513;
+            font-size: 8vw; 
+        }
+        .photo {
+            margin: 20px;
+            width: 100%;
+            height: auto;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 20px 40px;
+            font-size: 40px;
+            text-decoration: none;
+            color: white;
+            background-color: #8B4513;
+            border-radius: 12px;
+            box-shadow: none; 
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Fotos do Aniversário de 65 anos</h1>
+    <img class="photo" src="https://lh3.googleusercontent.com/pw/AP1GczP4ZA95WUlr0sTwivdgsZumc3G4V_XjnEqCdDPCWfZPfq1VGZ-P7MCeHRvBBrG0du0u7smdCDuvGjw84oYUpkscBV6v6OFxin6fk89Uo3MLvg86hND5xP4uwljzMsld8XD8FfuuQAzmPCz0CzJEiQ9XNA=w1024-h683-s-no-gm?authuser=0" alt="Foto 1">
+    <img class="photo" src="https://lh3.googleusercontent.com/pw/AP1GczONd8XzmPEet8-YPELCmdwgglwJ455x1ZFtE_AdYn9xtZeW7HZ5aJWbwHF0w8Y5LbuLVnKI9NXAXccxrNQ_jgPk_JyvzRMjRAuIOE9Eoq608BOeivA9j1KbUY1AUnkQ7Sr6ltQAdyK0Ty323DWy7-juCw=w1024-h683-s-no-gm?authuser=0" alt="Foto 2">
+    <img class="photo" src="https://lh3.googleusercontent.com/pw/AP1GczPw8hnCB9YhwTh3sRy5bnSWHNJyDPS4jWZG0bxHlpXvtp7Vx1oyYKsyVj_DmjOYcfgWrzyY2c85H17D_qnoOyqMUPL8g5tbiN_aItPzAUKhRzS-KX3TWjfx-3am1ZyYxPMBMGhp4FKYBZhOxwJyqGhO2w=w1024-h683-s-no-gm?authuser=0" alt="Foto 3">
+    <img class="photo" src="https://lh3.googleusercontent.com/pw/AP1GczNgeHls8ZoD1tKW6lCs1supFPMG3hEZqbpj2tPLJ8q7wMqYwgvomBNV_oWNAICzMHc6i3vMuu_ytHeQ9Mk08FnY3HUkyTFsWr4xNrVMZ1tTss8hwPpaPTc7GLbqO9sdx-oF5PLJuCSK655UrrwKrflHBA=w1024-h683-s-no-gm?authuser=0" alt="Foto 4">
+    <img class="photo" src="https://lh3.googleusercontent.com/pw/AP1GczO0-9dfYtVl83HCeJh5-lP3aXbOdbv-Qs31LwE2fk6kMwbR9EZgf6UlVQMFnIa7aqR1WyKZIQ-hZKH5QCZdseR_MvxyqGLoUOpVooRqDh4L_jVB69a6ql0x6nUJXwwdqNPbw0ggi1FQCj8m8ttTS_YKKQ=w1024-h683-s-no-gm?authuser=0" alt="Foto 5">
+    <img class="photo" src="https://lh3.googleusercontent.com/pw/AP1GczMXy1bJnXh45eLIBEMUHNxL4b7M_LMH95tjqXD32IEi9tvi4S4Xur_ktvyCua9E_FZd3IJjpgnON63iSHL8mJbu_WkC55TCVjEuvgDRgRb0fsLEP7zAYWvWJz91YIWBEuu-i3Afq58_i6uKmTg15DfLOg=w1024-h683-s-no-gm?authuser=0" alt="Foto 6">
+    <a href="index.html" class="back-button">Voltar</a>
+</body>
+</html>
+
+\\\PAGINA LOCALIZACAO///
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #F5F5DC; 
+            font-family: Arial, sans-serif;
+        }
+        #voltar {
+            background-color: #8B4513;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px; 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto;
+            box-shadow: none; 
+            border: none; 
+        }
+        h1 {
+            text-align: center;
+            color: #8B4513; 
+            font-size: 8vw; 
+        }
+        p {
+            font-weight: bold; 
+            text-align: center; 
+        }
+        iframe {
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto;
+            max-width: 100%;
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Localização da Festa</h1> 
+    <p>O evento ocorrerá na Rua São Matheus, Bairro Mar Azul, Aracruz - ES, 29198-251.</p> 
+    <p>Um local perfeito para comemorações memoráveis.</p>
+    <p>Aguardamos a sua presença!</p>
+    <iframe width="600" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=-19.9174528503135~-40.0998513000841&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+    </iframe>
+    <button id="voltar" onclick="goHome()">Voltar</button>
+    <script>
+        function goHome() {
+            window.location.href = 'index.html'; 
+        }
+    </script>
+    <p id="footer"></p>
+</body>
+</html>
+
+------CONSTRUCAO DO APLICATIVO PELO ANDROID STUDIO------
+
+\\\ARQUIVO MAIN ACTIVITY KOTLIN////
+
+package br.com.areatechbrasil.convitedeaniversario
+
+import android.net.http.SslError
+import android.webkit.SslErrorHandler
+import android.os.Bundle
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.viewinterop.AndroidView
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            MyWebView()
+        }
+    }
+}
+
+@Composable
+fun MyWebView() {
+    AndroidView(factory = { context ->
+
+        WebView(context).apply {
+            this.settings.javaScriptEnabled = true
+            this.settings.domStorageEnabled = false
+            this.webViewClient = object : WebViewClient() {
+                override fun onReceivedSslError(view: WebView, handler: SslErrorHandler, error: SslError) {
+                    // Implemente a lógica para lidar com erros SSL aqui
+                }
+            }
+            loadUrl("https://conviteaniversario65anos.000webhostapp.com/index.html" +
+                    "")
+
+        }
+    })
+}
+
+\\\ARQUIVO ANDROID MANIFEST XML///
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.areatechbrasil.convitedeaniversario">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_background"
+        android:label="Convite de Aniversario"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConviteDeAniversario"
+        tools:targetApi="31">
+        <activity
+            android:name="br.com.areatechbrasil.convitedeaniversario.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ConviteDeAniversario">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
